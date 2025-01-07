@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 @Table(name = "EMP_USER")
 public class User {
 
+    public User(){}
+
     @Id
     @GeneratedValue
     private Long id;
